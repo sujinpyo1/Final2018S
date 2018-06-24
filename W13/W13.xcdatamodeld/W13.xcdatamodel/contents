@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BaggageList" representedClassName="BaggageList" syncable="YES" codeGenerationType="class">
+        <attribute name="itemName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="BucketList" representedClassName="BucketList" syncable="YES" codeGenerationType="class">
+        <attribute name="listName" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="HappyMap" representedClassName="HappyMap" syncable="YES" codeGenerationType="class">
+        <attribute name="description_m" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_m" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="location_m" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PresentList" representedClassName="PresentList" syncable="YES" codeGenerationType="class">
+        <attribute name="presentItem" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="target" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Schedule" representedClassName="Schedule" syncable="YES" codeGenerationType="class">
+        <attribute name="detailPlan" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="planTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="travelPlan" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ShoppingList" representedClassName="ShoppingList" syncable="YES" codeGenerationType="class">
+        <attribute name="place" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shoppingItem" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TravelInformation" representedClassName="TravelInformation" syncable="YES" codeGenerationType="class">
+        <attribute name="countryName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TravelNote" representedClassName="TravelNote" syncable="YES" codeGenerationType="class">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BaggageList" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="BucketList" positionX="-54" positionY="45" width="128" height="60"/>
+        <element name="PresentList" positionX="-54" positionY="36" width="128" height="75"/>
+        <element name="Schedule" positionX="-54" positionY="54" width="128" height="90"/>
+        <element name="ShoppingList" positionX="-63" positionY="27" width="128" height="90"/>
+        <element name="TravelInformation" positionX="-54" positionY="54" width="128" height="90"/>
+        <element name="TravelNote" positionX="-54" positionY="27" width="128" height="135"/>
+        <element name="HappyMap" positionX="-54" positionY="54" width="128" height="90"/>
+    </elements>
+</model>
